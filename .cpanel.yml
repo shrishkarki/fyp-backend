@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - eport DEPLOYPATH=/home/yatharup/digitalmuseum/public/
+    - /bin/cp * $DEPLOYPATH
